@@ -1,0 +1,29 @@
+$font-italic: 'Great Vibes', cursive;
+$font-title: 'Lora', serif;
+$font-primary: 'Open Sans', sans-serif;
+$color-fondo:#f8f9fa;
+
+*{
+    font-family: $font-primary;
+}
+.font-serif{
+    font-family: $font-title;
+}
+.hand-script{
+    font-family: $font-italic;
+}
+@for $i from 1 to 6 {
+    h#{$i}{
+        font-family: $font-title;
+    }    
+}
+.navbar-toggler{
+    border: none;
+}
+body{
+    background-color: $color-fondo;
+}
+section{
+    min-height: 100vh;
+    pad:0 2rem;
+}

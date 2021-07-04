@@ -1,0 +1,146 @@
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+.font-serif {
+  font-family: "Lora", serif;
+}
+
+.hand-script {
+  font-family: "Great Vibes", cursive;
+}
+
+h1 {
+  font-family: "Lora", serif;
+}
+
+h2 {
+  font-family: "Lora", serif;
+}
+
+h3 {
+  font-family: "Lora", serif;
+}
+
+h4 {
+  font-family: "Lora", serif;
+}
+
+h5 {
+  font-family: "Lora", serif;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+body {
+  background-color: #f8f9fa;
+}
+
+section {
+  min-height: 100vh;
+  pad: 0 2rem;
+}
+
+header {
+  margin-bottom: 1rem;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  position: relative;
+  padding-bottom: 1.5rem;
+}
+.navbar-brand h2, .navbar-brand span, .navbar-brand hr {
+  margin: 0;
+  padding: 0;
+}
+.navbar-brand hr {
+  border-bottom: 1px solid #000;
+}
+.navbar-brand span {
+  position: absolute;
+  right: 0;
+  top: 2.5rem;
+  font-size: 1.5rem;
+}
+
+.home h1 {
+  font-size: 6rem;
+}
+.home .presentacion {
+  margin-top: 5rem;
+}
+.home .fotografias {
+  position: relative;
+}
+@media screen and (max-width: 767px) {
+  .home .fotografias {
+    margin-top: 2rem;
+    height: 100vh;
+  }
+}
+
+.fotografia {
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  border-left: 15px solid #fff;
+  border-right: 15px solid #fff;
+  border-top: 15px solid #fff;
+  border-bottom: 50px solid #fff;
+  -webkit-box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.3), 0 0 0 2px rgba(0, 0, 0, 0.1);
+          box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.3), 0 0 0 2px rgba(0, 0, 0, 0.1);
+}
+.fotografia:nth-child(2) {
+  top: 125px;
+  right: 0;
+  -webkit-transform: rotate(15deg);
+          transform: rotate(15deg);
+}
+.fotografia:nth-child(3) {
+  top: 300px;
+  left: 0;
+}
+.fotografia figure {
+  height: 100%;
+}
+.fotografia figure img {
+  position: relative;
+  top: -50px;
+}
+
+.title-container h2 {
+  text-transform: uppercase;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin: 0 auto;
+  position: relative;
+}
+.title-container h2::after {
+  content: "";
+  display: block;
+  width: 200px;
+  height: 5px;
+  background-color: #000;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: 180px;
+}
+.title-container h2::before {
+  content: "";
+  display: block;
+  width: 200px;
+  height: 5px;
+  background-color: #000;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  right: 180px;
+}
+/*# sourceMappingURL=main.css.map */
