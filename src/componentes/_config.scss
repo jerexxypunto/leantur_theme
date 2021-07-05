@@ -3,6 +3,28 @@ $font-title: 'Lora', serif;
 $font-primary: 'Open Sans', sans-serif;
 $color-fondo:#f8f9fa;
 
+@mixin foto($width, $heigth) {
+    $fotoWidth:250px;
+    $fotoHeigth:250px;
+    height: $fotoHeigth;
+    width:$fotoWidth;
+    border-left:15px solid #fff;
+    border-right:15px solid #fff;
+    border-top:15px solid #fff;
+    border-bottom:50px solid #fff;
+    box-shadow: 3px 3px 2px rgba(#000,.3),
+                0 0 0 2px rgba(#000,.1);
+    figure{
+        height: 100%;
+        img{
+            position: relative;
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+}
+
 *{
     font-family: $font-primary;
 }
